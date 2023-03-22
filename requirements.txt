@@ -1,2 +1,2 @@
 streamlit
-langchain
+langchain==0.4.1
