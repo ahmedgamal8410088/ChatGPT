@@ -5,7 +5,7 @@ from langchain.chains.conversation.prompt import ENTITY_MEMORY_CONVERSATION_TEMP
 from langchain.llms import OpenAI
 
 
-st.set_page_config(page_title='🧠MemoryBot🤖', layout='wide')
+st.set_page_config(page_title='🧠Chat Bot🤖', layout='wide')
 
 
 if "generated" not in st.session_state:
@@ -58,11 +58,11 @@ with st.sidebar.expander(" 🛠️ Settings ", expanded=False):
 st.title("🧠 Memory Bot 🤖")
 st.markdown(
         ''' 
-        > :black[**A Chatbot that remembers,**  *powered by -  [LangChain]('https://langchain.readthedocs.io/en/latest/modules/memory.html#memory') + 
-        [OpenAI]('https://platform.openai.com/docs/models/gpt-3-5') + 
-        [Streamlit]('https://streamlit.io') + [DataButton](https://www.databutton.io/)*]
+        > :black[**A Chatbot that remembers,**  *powered by -Ahmed Gamal  []('') + 
+        []('') + 
+        []('') + []()*]
         ''')
-# st.markdown(" > Powered by -  🦜 LangChain + OpenAI + Streamlit")
+# st.markdown(" > Powered by -  Ahmed Gamal")
 
 # Ask the user to enter their OpenAI API key
 API_O = st.sidebar.text_input(":blue[Enter Your OPENAI API-KEY :]", 
